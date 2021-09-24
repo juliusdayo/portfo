@@ -1,0 +1,26 @@
+.calculator-body{
+  background-color: #5C7AEA;
+  text-align: center;
+  padding: 10%;
+  border-radius: 7%;
+  color:#14279B ;
+}
+
+
+.result{
+  height: 20px;
+  border: green;
+  text-align: right;
+  background-color: aquamarine;
+  margin: 15px;
+  border-radius: 2%;
+}
+
+.button button{
+  background-color: #3D56B2;
+  margin: 1%;
+  border-radius: 10%;
+  height: 40px;
+  width: 40px;
+}
+
