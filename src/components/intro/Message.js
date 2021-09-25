@@ -23,12 +23,8 @@ function Message({ name, ...props }) {
 }
 
 function Example() {
-  return (
-    <>
-      {['bottom'].map((placement, idx) => (
-        <Message key={idx} placement={placement} name={placement} />
-      ))}
-    </>
+  return (       
+        <Message  placement="bottom" name="bottom" />        
   );
 }
 
