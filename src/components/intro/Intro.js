@@ -1,11 +1,15 @@
-
+import Alert from 'react-bootstrap/Alert';
 import {Container,Row,Col} from 'react-bootstrap';
 import Avatar from './Avatar.js';
 import Caption from './Caption.js';
 import '../../css/Intro.css';
 import Showcase from './Showcase.js';
 
+
+
 function Intro(props){
+
+	
 
 	const element = (
 		<Container fluid >
@@ -13,7 +17,7 @@ function Intro(props){
 				<Col sm={3} bg="dark">
 					<Avatar />	
 				</Col>
-				<Col  sm={6} bg="dark" className="Intro-Caption" animation="glow">
+				<Col  sm={6} bg="dark" className="Intro-Caption" >
 					<Caption desc={props.desc} greet={props.greet}/>
 				</Col>
 				<Col>
@@ -26,8 +30,7 @@ function Intro(props){
 	<div className="Intro-Con">	
 		{element}
 	</div>
-	)
+	)	
 }
-
 
 export default Intro;
