@@ -3,12 +3,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //Css
 import './index.css';
-
+import './App.css';
 
 //components
 
 import Navigation from './components/templates/Navigation.js';
 import Intro from './components/intro/Intro.js';
+import Message from './components/Message.js';
+
 import reportWebVitals from './reportWebVitals';
 
 let introMessage = "I'm A Web App Developer";
@@ -23,6 +25,7 @@ ReactDOM.render(
   <div className="Main-Container">
     <Intro desc={introMessage} greet={introGreet} />
   </div>
+    <Message/>
   </React.StrictMode>,
   document.getElementById('root')
 );
