@@ -1,6 +1,15 @@
+
+
 .Intro-Caption{
 	padding: 10% 0 20% 0;
 	color: white;
+	
+}
+.IntroBack{
+	background-color: #121110;
+	width: 40%;
+	padding: 1%;
+	text-align: center;
 }
 
 .Intro-Con{
