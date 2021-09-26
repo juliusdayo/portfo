@@ -18,7 +18,7 @@ function Intro(props){
 					<Avatar />	
 				</Col>
 				<Col  sm={6}  className="Intro-Caption" >
-					<div className="IntroBack">
+					<div className="IntroBack" >
 						<Caption desc={props.desc} greet={props.greet}/>
 					</div>
 				</Col>

@@ -17,9 +17,13 @@ let introMessage = "I'm A Web App Developer";
 let introGreet = "Hi, I'm Julius";
 let navItems = ["About","Skills","Contact"];
 
-ReactDOM.render(
-  <Navigation navList={navItems} />,document.getElementById('navigation'));
 
+ReactDOM.render(
+  
+  
+  <Navigation navList={navItems}/>
+  ,document.getElementById('navigation'));
+  
 ReactDOM.render(
   <React.StrictMode>
   <div className="Main-Container">

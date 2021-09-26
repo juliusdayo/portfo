@@ -3,13 +3,17 @@
 .Intro-Caption{
 	padding: 10% 0 20% 0;
 	color: white;
+
 	
 }
 .IntroBack{
 	background-color: #121110;
-	width: 40%;
-	padding: 1%;
-	text-align: center;
+	width: 70%;
+	height: 80%;
+	padding: 3%;
+	opacity: .9;
+	border-radius: 10%;
+	align-self: center;
 }
 
 .Intro-Con{
