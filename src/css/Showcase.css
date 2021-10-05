@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .calculator-body{
   background-color: #171717;
   text-align: center;
@@ -23,3 +24,32 @@
   width: 40px;
 }
 
+=======
+.calculator-body{
+  background-color: #171717;
+  text-align: center;
+  padding: 5%;
+  border-radius: 7%;
+  color:#EDEDED ;
+  width: max-content;
+}
+
+
+.result{
+  height: 20px;
+  text-align: right;
+  background-color: #EDEDED;
+  margin: 15px;
+  border-radius: 2%;
+  color: #DA0037;
+}
+
+.button button{
+  background-color: #DA0037;
+  margin: 1%;
+  border-radius: 10%;
+  height: auto;
+  width: 20%;
+}
+
+>>>>>>> Stashed changes
