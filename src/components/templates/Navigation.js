@@ -9,9 +9,9 @@ function Navigation(props){
 	
 	return (
 		
-		<Navbar bg="gray" expand="lg" fixed="top" >
+		<Navbar bg="gray" expand="sm" fixed="top" >
 		  <Container fluid>
-		    <Navbar.Brand href="#home">Julius Caezar C. Coros</Navbar.Brand>
+		    <Navbar.Brand href="#home">Julius Caezar Coros</Navbar.Brand>
 		    <Select navList={props.navList}/>
 		  </Container>
 		</Navbar>
